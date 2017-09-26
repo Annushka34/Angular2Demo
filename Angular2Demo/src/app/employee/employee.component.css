@@ -1,0 +1,11 @@
+﻿table{
+    color:#369;
+    font-family:Arial, Arial, Helvetica, sans-serif, sans-serif;
+    font-size:large;
+    border-collapse:collapse;
+    font-style:italic;
+}
+
+td{
+    border:1px solid red;
+}

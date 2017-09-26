@@ -1,0 +1,41 @@
+﻿<!--<div>
+    <h1>
+        {{pageHeader?pageHeader:'No header'}}
+    </h1>
+    <h2>{{getFullName()}}</h2>
+    <img src="{{imagePath}}"/>
+    <my-employee></my-employee>
+    <button [disabled]='isDisabled'>Click me</button>
+    <span bind-innerHtml="pageHeader"></span>
+    <div>{{badHtml}}</div>
+    <div [innerHtml]='badHtml'></div>
+    <input type="text" id="inputId" value="Tom"/>
+
+    <my-employee></my-employee>
+
+</div>-->
+
+<!--<button class="colorClass" [class]="classesToApply">Mybutton</button>
+<br />
+<br />
+<button [class.boldClass]="applyBoldClass">My button</button>
+//приміниться жирний при умові що applyBoldClass=true
+<br /><br />
+
+<button [ngClass]="addClasses()">My button ng class</button>-->
+
+<!--<button style="color:red"
+    [style.font-weight]="isBold?'bold':'normal'">
+    My isBold button
+</button>
+
+<br />
+<br />
+<button [style.font-size.px]="fontSize">
+    My button
+</button>
+<br /><br />
+<button [ngStyle]="addStyles()">My button styles</button>-->
+
+<button (click)="onClickMe()">Click me</button>
+<my-employee></my-employee>
