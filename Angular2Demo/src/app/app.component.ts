@@ -40,8 +40,9 @@ export class AppComponent  {
     //    return styles;
     //}
 
-    onClickMe(): void {
-        console.log('Button Clicked');
-    }
+    //onClickMe(): void {
+    //    console.log('Button Clicked');
+    //}
+    name: string = 'Tom';
 }
 
